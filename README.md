@@ -6,7 +6,7 @@
 python.exe -m venv .venv
 
 2. Активируем виртуальное окружение:
-.\.venv\Scripts\activate
+.venv/Scripts/activate
 
 3. Устанавливаем зависимости
 pip install -r requirements.txt
