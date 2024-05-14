@@ -13,7 +13,7 @@ if __name__ == "__main__":
     try:
         url:str = 'https://whatismyipaddress.com/'
         browser:Chrome = gd.get_driver(headless=False)
-        open_url(driver=browser, url=url)
+        open_url(browser=browser, url=url)
     except:
         traceback.print_exc()
 
